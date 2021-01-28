@@ -18,7 +18,7 @@ function LoginHeader() {
 			</div>
 			<div className="sidebar">
 				<center>
-					<VerifiedUserIcon className="user__badge"/>
+					<VerifiedUserIcon className="user__badge" style={{fontSize: '120px'}}/>
 					<br/><br/>
 					<h2>Hello, User Name</h2>
 				</center>
