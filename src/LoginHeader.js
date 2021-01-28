@@ -8,13 +8,18 @@ import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 import HistoryIcon from '@material-ui/icons/History';
 import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
 import BuildIcon from '@material-ui/icons/Build';
+import MenuIcon from '@material-ui/icons/Menu';
 
 function LoginHeader() {
 	return (
 		<div className="navbar">
+			<input type="checkbox" id="menu" />
 			<div className="upperNav">
 				<img className="header__logo" src={logo} alt="trademark logo" />
 				<p className="logout">Logout</p>
+				<label for="menu" className="menu__bar">
+					<MenuIcon className="sidebar__logo sidebar__menu"/>
+				</label>
 			</div>
 			<div className="sidebar">
 				<center>

@@ -66,3 +66,14 @@ h2 {
 	padding-left: 30px;
 	background-color: #0b2e9e;
 }
+
+#menu {
+	/*display: none;*/
+}
+.sidebar__menu .logout {
+	/*display: none;*/
+}
+.menu__bar {
+	float: right;
+	margin-top: 20px;
+}
