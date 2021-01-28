@@ -13,7 +13,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 function LoginHeader() {
 	return (
 		<div className="navbar">
-			<input type="checkbox" id="menu" />
 			<div className="upperNav">
 				<img className="header__logo" src={logo} alt="trademark logo" />
 				<p className="logout">Logout</p>
